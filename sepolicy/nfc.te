@@ -1,0 +1,2 @@
+# Allow NFC to access performance HAL.
+hal_client_domain(nfc, hal_perf)

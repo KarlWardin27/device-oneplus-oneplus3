@@ -1,0 +1,2 @@
+# Allow qtelephony to access perf HAL.
+hal_client_domain(qtelephony, hal_perf);

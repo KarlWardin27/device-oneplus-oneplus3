@@ -1,0 +1,3 @@
+# Perf wants access to read information from /proc.
+allow hal_perf_default system_server:file { open read };
+allow hal_perf_default system_server:dir { open read search };
